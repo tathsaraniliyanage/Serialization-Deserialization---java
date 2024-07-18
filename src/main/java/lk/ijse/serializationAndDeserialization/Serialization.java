@@ -12,7 +12,7 @@ public class Serialization {
 
         try {
 
-            FileOutputStream fileOutputStream = new FileOutputStream("C:\\Users\\prabo\\IdeaProjects\\serialization and deserialization\\serialization\\src\\main\\java\\lk\\ijse\\serialization\\user.ser");
+            FileOutputStream fileOutputStream = new FileOutputStream("C:\\Users\\prabo\\IdeaProjects\\serialization and deserialization\\serialization_deserialization\\src\\main\\java\\lk\\ijse\\serializationAndDeserialization\\user.ser");
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
 
             objectOutputStream.writeObject(user);

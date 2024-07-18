@@ -10,7 +10,7 @@ public class Deserialization {
 
         FileInputStream fileIn;
         try {
-            fileIn = new FileInputStream("C:\\Users\\prabo\\IdeaProjects\\serialization and deserialization\\serialization\\src\\main\\java\\lk\\ijse\\serialization\\user.ser");
+            fileIn = new FileInputStream("C:\\Users\\prabo\\IdeaProjects\\serialization and deserialization\\serialization_deserialization\\src\\main\\java\\lk\\ijse\\serializationAndDeserialization\\user.ser");
             ObjectInputStream in = new ObjectInputStream(fileIn);
             user = (User) in.readObject();
             in.close();
@@ -29,6 +29,7 @@ public class Deserialization {
 
         System.out.println("name: " + user.name);
         System.out.println("password: " + user.password);
+        System.out.println("age: " + user.age);
 
 
     }
