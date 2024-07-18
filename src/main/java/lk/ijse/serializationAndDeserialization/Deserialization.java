@@ -1,4 +1,4 @@
-package lk.ijse.serialization;
+package lk.ijse.serializationAndDeserialization;
 
 import java.io.*;
 
